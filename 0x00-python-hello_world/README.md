@@ -1,6 +1,11 @@
 # Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
+
+
+
+![Alt text](../../../../48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg)
+
 ## General
 Why Python programming is awesome
 Who created Python
@@ -24,3 +29,4 @@ A `README.md` file, at the root of the folder of this project, is mandatory
 Your code should use the pycodestyle `(version 2.8.*)`
 All your files must be executable
 The length of your files will be tested using `wc`
+going forward
