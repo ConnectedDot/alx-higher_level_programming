@@ -1,10 +1,8 @@
 # Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
+![48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263](https://github.com/ConnectedDot/alx-higher_level_programming/assets/36473098/c068d947-1846-4431-a5c2-db6aad2bfaf3)
 
-
-
-![Alt text](../../../../48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg)
 
 ## General
 Why Python programming is awesome
