@@ -47,5 +47,23 @@ Update the package list by running the following command in the terminal:
 
 ``python3.4 --version``
 
-This should output something like "Python 3.4.x".
+This should output something like ``"Python 3.4.x"``
 That's it! You should now have Python 3.4 installed on your Ubuntu system.
+
+Or
+
+
+if python-dev package is not available on your system, you can try installing the ``python3-dev package`` instead of python-dev.
+
+Update the package list by running the following command in the terminal:
+
+``sudo apt-get update``
+Install the required build tools and development headers by running the following command:
+
+``sudo apt-get install build-essential python3-dev``
+This will install the latest version of Python 3 development headers and libraries.
+
+Verify that Python 3.4 has been installed by running the following command:
+
+``python3.4 --version``
+This should output something like "Python 3.4.x".
