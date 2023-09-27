@@ -1,3 +1,3 @@
--- Computes the average score of all records in the table second_table.
-SELECT AVG(`score`) AS `average`
-FROM `second_table`;
+-- Print the average score
+-- Execute: cat 14-average.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+SELECT AVG(score) AS average FROM second_table;
