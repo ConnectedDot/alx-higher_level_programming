@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-# Lists all City objects from the database hbtn_0e_14_usa.
-# Usage: ./14-model_city_fetch_by_state.py <mysql username> /
-#                                          <mysql password> /
-#                                          <database name>
+""" prints the State object with the name passed as argument from the database
+"""
 import sys
 from model_state import Base, State
 from model_city import City
