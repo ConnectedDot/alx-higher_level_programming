@@ -10,24 +10,13 @@ import sys
 
 
 if __name__ == "__main__":
-    # Connect to MySQL server
     db = MySQLdb.connect(host="localhost", user=sys.argv[1],
                          passwd=sys.argv[2], db=sys.argv[3], port=3306)
-
-    # Create cursor
     cur = db.cursor()
-
-    # Execute query
-    cur.execute(
-        "SELECT * FROM states WHERE name LIKE BINARY '{}' ORDER BY states.id".format(sys.argv[4]))
-
-    # Fetch all rows
+    cur.execute("""SELECT * FROM states WHERE name
+                LIKE BINARY 'N%' ORDER BY states.id""")
     rows = cur.fetchall()
-
-    # Print results
     for row in rows:
         print(row)
-
-    # Close cursor and database connection
     cur.close()
     db.close()
