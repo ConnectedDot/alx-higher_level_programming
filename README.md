@@ -60,6 +60,3 @@ Pycodestyle is now the new standard of Python style code
 This project is licensed under the MIT License.
 
 
-Make sure to replace `https://github.com/your-username/python-project.git` with the actual URL of your project's repository.
-
-
